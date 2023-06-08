@@ -1,0 +1,74 @@
+body{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0 60px;
+    }
+
+        header div{
+            background-image: url("../img/Pipe.png");
+            background-repeat: no-repeat;
+            width: 685px;
+            height: 150px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 35px;
+            color: #f4f4f4;
+            line-height: 55px;
+        }
+
+            header div p{
+                margin: 0 80px;
+            }
+        header p{
+            font-weight: 700;
+            font-size: 35px;
+            color: #f4f4f4;
+            line-height: 55px;
+        }
+
+        header button{
+            background: #E52521;
+            border: 3px solid #f4f4f4;
+            border-radius: 10px;
+            width: 200px;
+            height: 52px;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 10px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-right: 40px;
+            box-shadow: 5px 5px black;
+            transition: all ease-in 0.15s;
+        }
+
+        header button:hover{
+            cursor: pointer;
+            translate: -4px -4px;
+            box-shadow: 9px 9px black;
+        }
+
+    main{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 80%;
+        margin: 0 auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 50px;
+    }
+
+        main img{
+            width: 150px;
+            height: 150px;
+        }
