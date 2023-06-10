@@ -9,7 +9,7 @@ let finder = 0;
 let points = 0;
 
 renderCards();
-
+countTime();
 
 
 closeButton.addEventListener("click", ()=>{
@@ -90,4 +90,19 @@ function shuffleArray(arr){
         [arr[i], arr[j]] = [arr[j], arr[i]];
     }
     return arr;
+}
+
+function countTime(){
+    var timer = setInterval(function(){start()}, 1000);
+    var count = 45;
+
+    function start(){
+        document.getElementById("time").innerHTML = count;
+        if (count==0){
+            clearInterval(timer);
+            document.getElementById("game-over").innerHTML = "GAME OVER";
+            document.getElementById("time").innerHTML = "";
+        }
+        count--
+    }
 }
