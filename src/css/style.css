@@ -81,3 +81,12 @@ body{
                 translate: -4px -4px;
                 box-shadow: 9px 9px black;
             }
+
+            button a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            button a:hover {
+                color: #049CD8;
+            }
