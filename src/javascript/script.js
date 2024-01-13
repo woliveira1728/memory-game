@@ -13,7 +13,7 @@ countTime();
 
 
 closeButton.addEventListener("click", ()=>{
-    location.assign("/")
+    location.assign("/memory-game/")
 })
 
 function renderCards(){
