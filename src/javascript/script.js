@@ -13,7 +13,7 @@ countTime();
 
 
 closeButton.addEventListener("click", ()=>{
-    location.assign("../../index.html")
+    location.assign("/")
 })
 
 function renderCards(){
